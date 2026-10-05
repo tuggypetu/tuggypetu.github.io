@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sid Biswas | Data Scientist, Climate Tech</title>
+<meta name="description" content="Sid Biswas is a data scientist working on geospatial AI, carbon markets and machine learning for climate.">
+<meta property="og:title" content="Sid Biswas | Data Scientist, Climate Tech">
+<meta property="og:description" content="Geospatial AI, carbon analytics and machine learning for climate.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500&family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Crect width='2' height='2' fill='%232F6B4F'/%3E%3Crect x='2' width='2' height='2' fill='%232C6E8F'/%3E%3Crect y='2' width='2' height='2' fill='%23B08D57'/%3E%3Crect x='2' y='2' width='2' height='2' fill='%2378A36A'/%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <a class="brand" href="#top">Sid Biswas</a>
+  <nav aria-label="Sections">
+    <a href="#work">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#learning">Learning</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="main">
+
+<section class="hero" id="top">
+  <div class="hero-text">
+    <h1>Sid Biswas</h1>
+    <p class="role">Data scientist, climate tech</p>
+    <p class="lede">I turn satellite imagery, field surveys and market data into numbers that climate projects can act on. My work spans geospatial AI, carbon analytics and applied machine learning.</p>
+    <div class="links">
+      <a class="btn primary" href="mailto:siddhanthbiswas@gmail.com">Email me</a>
+      <a class="btn" href="https://www.linkedin.com/in/siddhanthbiswas" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/tuggypetu" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+  <figure class="raster" aria-hidden="true">
+    <canvas id="landcover" width="360" height="360"></canvas>
+    <figcaption>
+      <span><i class="sw forest"></i>Forest</span>
+      <span><i class="sw crop"></i>Cropland</span>
+      <span><i class="sw water"></i>Water</span>
+      <span><i class="sw built"></i>Built-up</span>
+      <span><i class="sw bare"></i>Bare soil</span>
+    </figcaption>
+  </figure>
+</section>
+
+<section class="about wrap" aria-label="About">
+  <p>I work at the intersection of <strong>climate, geospatial AI and carbon markets</strong>. Before climate tech I built remote-sensing pipelines and GenAI tools, and my business-school background helps me turn model outputs into decisions people can use. After the Climate Change AI Summer School 2026, my focus is taking AI for climate out of the notebook and into real-world use in forestry, agriculture and carbon markets.</p>
+</section>
+
+<section class="wrap" id="work">
+  <h2>Experience</h2>
+  <ol class="timeline">
+    <li>
+      <div class="when">Sep 2025 – now</div>
+      <div class="what">
+        <h3>Data Scientist <span>ProClime</span></h3>
+        <ul>
+          <li>Geospatial workflows that estimate land carbon from satellite imagery, spectral signatures and environmental data.</li>
+          <li>A central baseline-survey database that supports estimation, data tracking and project monitoring.</li>
+          <li>Carbon-market research that brings registry data from Verra, Gold Standard, Puro.earth and Isometric into one view.</li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div class="when">Apr – Aug 2025</div>
+      <div class="what">
+        <h3>Data Science Engineer <span>V-Patrol AI</span></h3>
+        <ul>
+          <li>Automated built-up area change detection from satellite imagery, delivered through maps and an API.</li>
+          <li>Regional population-density estimation combining satellite bands with population and area data.</li>
+          <li>Oriented object detection, plus anomaly detection and recommendations on app data.</li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div class="when">Jan – Dec 2023</div>
+      <div class="what">
+        <h3>Application Development Engineer <span>ParamNetwork</span></h3>
+        <ul>
+          <li>Retrieval-augmented document question answering for business documents.</li>
+          <li>Generative-AI synthetic data that cut demo-data preparation from days to minutes.</li>
+          <li>Workforce analytics dashboards and data pipelines on AWS and GCP.</li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div class="when">2021 – 2022</div>
+      <div class="what">
+        <h3>Research <span>James Cook University, Singapore</span></h3>
+        <ul>
+          <li>Deep-learning bowel-sound classifier for AI-assisted diagnosis: 0.97 accuracy, 0.99 specificity.</li>
+          <li>Clustering analysis of health and living conditions across US mining communities.</li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<section class="wrap" id="projects">
+  <h2>Projects</h2>
+  <div class="filters" role="group" aria-label="Filter projects">
+    <button type="button" aria-pressed="true" data-filter="all">All</button>
+    <button type="button" aria-pressed="false" data-filter="climate">Climate</button>
+    <button type="button" aria-pressed="false" data-filter="genai">GenAI &amp; NLP</button>
+    <button type="button" aria-pressed="false" data-filter="ml">ML &amp; forecasting</button>
+    <button type="button" aria-pressed="false" data-filter="health">Health AI</button>
+    <button type="button" aria-pressed="false" data-filter="apps">Apps</button>
+  </div>
+
+  <div class="projects">
+    <article class="project feature" data-tags="climate genai">
+      <h3><a href="https://github.com/tuggypetu/vm0033" target="_blank" rel="noopener">Blue-carbon methodology assistant</a></h3>
+      <p>A question-answering app over Verra's VM0033 methodology for tidal wetland and seagrass restoration. It cleans headers and footers from the PDF, parses it into elements, indexes it in a vector database and answers with an LLM in a Streamlit app.</p>
+      <p class="stack">LangChain · Hugging Face embeddings · KDB.AI · Groq · Streamlit</p>
+    </article>
+
+    <article class="project feature" data-tags="health ml">
+      <h3><a href="https://github.com/tuggypetu/num_bowel_sounds" target="_blank" rel="noopener">Bowel sound detector</a></h3>
+      <p>A web app that counts bowel sounds in an uploaded audio file and plots its spectrogram, built on the CRNN model from my Master's research (<a href="https://github.com/tuggypetu/model_num_bowel_sound" target="_blank" rel="noopener">model code</a>).</p>
+      <p class="stack">TensorFlow · Librosa · Streamlit</p>
+    </article>
+
+    <article class="project" data-tags="genai">
+      <h3><a href="https://github.com/tuggypetu/create_LLM" target="_blank" rel="noopener">A language model from scratch</a></h3>
+      <p>Bigram and GPT-style transformer models written from first principles to understand attention.</p>
+      <p class="stack">PyTorch</p>
+    </article>
+
+    <article class="project" data-tags="genai">
+      <h3><a href="https://github.com/tuggypetu/deep_researcher" target="_blank" rel="noopener">Deep researcher</a></h3>
+      <p>A research agent that scrapes web sources asynchronously and summarises them with an open-source LLM.</p>
+      <p class="stack">LangChain · Transformers · aiohttp</p>
+    </article>
+
+    <article class="project" data-tags="genai">
+      <h3><a href="https://github.com/tuggypetu/T5_uk_to_us_english" target="_blank" rel="noopener">UK to US English with T5</a></h3>
+      <p>Fine-tuned a T5 model to convert UK English sentences into US English, beyond simple spelling rules.</p>
+      <p class="stack">Hugging Face Transformers</p>
+    </article>
+
+    <article class="project" data-tags="genai">
+      <h3><a href="https://github.com/tuggypetu/GenAI_Archive" target="_blank" rel="noopener">GenAI experiments</a></h3>
+      <p>RAG with cache-backed embeddings and hybrid BM25 + vector search, document summarisation, OCR and LLM agents.</p>
+      <p class="stack">LangChain · FAISS · Vertex AI · LlamaIndex</p>
+    </article>
+
+    <article class="project" data-tags="ml">
+      <h3><a href="https://github.com/tuggypetu/prediction_and_insights_timeseries" target="_blank" rel="noopener">Food-delivery demand insights</a></h3>
+      <p>Purchase-frequency analysis, sales forecasting and market-share extrapolation from food-delivery order data.</p>
+      <p class="stack">ARIMA · XGBoost · Pandas</p>
+    </article>
+
+    <article class="project" data-tags="ml">
+      <h3><a href="https://github.com/tuggypetu/predict_future_sales" target="_blank" rel="noopener">Predict future sales</a></h3>
+      <p>Kaggle forecasting of product sales from historical data with LSTM and gradient-boosted models.</p>
+      <p class="stack">TensorFlow · XGBoost</p>
+    </article>
+
+    <article class="project" data-tags="ml">
+      <h3><a href="https://github.com/tuggypetu/otto-recommender-system" target="_blank" rel="noopener">OTTO recommender system</a></h3>
+      <p>Exploration of a large e-commerce session dataset for the Kaggle OTTO recommendation challenge.</p>
+      <p class="stack">Polars · Pandas</p>
+    </article>
+
+    <article class="project" data-tags="ml">
+      <h3><a href="https://github.com/tuggypetu/Autochart" target="_blank" rel="noopener">Autochart</a></h3>
+      <p>Paste or upload CSV or JSON data and get a set of charts built automatically.</p>
+      <p class="stack">Streamlit · Matplotlib</p>
+    </article>
+
+    <article class="project" data-tags="genai">
+      <h3><a href="https://github.com/tuggypetu/Twitter-Crypto-Sentiment-Analysis" target="_blank" rel="noopener">Crypto sentiment on Twitter</a></h3>
+      <p>Sentiment and subjectivity scores for cryptocurrencies from live tweets.</p>
+      <p class="stack">Twitter API · TextBlob</p>
+    </article>
+
+    <article class="project" data-tags="genai">
+      <h3><a href="https://github.com/tuggypetu/imdb_emotion_predict" target="_blank" rel="noopener">Movie emotion from IMDb reviews</a></h3>
+      <p>Pulls reviews for any film and estimates the emotions they express.</p>
+      <p class="stack">Cinemagoer · NLTK · text2emotion</p>
+    </article>
+
+    <article class="project" data-tags="genai apps">
+      <h3><a href="https://github.com/tuggypetu/chatbot_simple" target="_blank" rel="noopener">Chatbots</a></h3>
+      <p>An intent-based deep-learning chatbot and a <a href="https://github.com/tuggypetu/whatsapp_bot" target="_blank" rel="noopener">WhatsApp bot</a>.</p>
+      <p class="stack">NLTK · TFLearn · Python</p>
+    </article>
+
+    <article class="project" data-tags="apps">
+      <h3><a href="https://github.com/tuggypetu/weather_and_temperature" target="_blank" rel="noopener">Android apps</a></h3>
+      <p>A weather and temperature-conversion app and a <a href="https://github.com/tuggypetu/dictionary_appp" target="_blank" rel="noopener">dictionary app</a>.</p>
+      <p class="stack">Android · Java</p>
+    </article>
+  </div>
+  <p class="more">More on <a href="https://github.com/tuggypetu" target="_blank" rel="noopener">GitHub</a>, including chess game analysis and early Python practice projects.</p>
+
+  <div class="labs" data-tags="climate">
+    <h3>Climate Change AI Summer School labs</h3>
+    <p>Hands-on notebooks I worked through in 2026, written by researchers at CCAI and partner institutions.</p>
+    <ul>
+      <li><a href="https://github.com/tuggypetu/detect-deforestation">Detecting deforestation from satellite time series</a><span>Forestry</span></li>
+      <li><a href="https://github.com/tuggypetu/agricultural-monitoring-ftw">Agricultural monitoring with Fields of The World</a><span>Agriculture</span></li>
+      <li><a href="https://github.com/tuggypetu/flood-monitoring">Flood risk assessment with Sentinel-1 and 2</a><span>Hazards</span></li>
+      <li><a href="https://github.com/tuggypetu/coal-power-mrv">Coal plant activity from satellite images</a><span>MRV</span></li>
+      <li><a href="https://github.com/tuggypetu/downscaling-climate-projections">Downscaling climate projections with deep learning</a><span>Climate science</span></li>
+      <li><a href="https://github.com/tuggypetu/hurricane-wind-var">Hurricane wind value-at-risk from an AI ensemble</a><span>Climate finance</span></li>
+      <li><a href="https://github.com/tuggypetu/piggy-cast">Stacked ensemble weather prediction</a><span>Weather</span></li>
+      <li><a href="https://github.com/tuggypetu/camels-hydrological-modeling">Hydrological modelling for floods and droughts</a><span>Water</span></li>
+      <li><a href="https://github.com/tuggypetu/coastal-water-quality">Coastal water quality from remote sensing</a><span>Oceans</span></li>
+      <li><a href="https://github.com/tuggypetu/bioacoustic-monitoring">Agile bioacoustic monitoring</a><span>Biodiversity</span></li>
+      <li><a href="https://github.com/tuggypetu/lkotkote-bird-bioacoustics">Bird bioacoustics with traditional knowledge</a><span>Biodiversity</span></li>
+      <li><a href="https://github.com/tuggypetu/optimal-power-flow">AI for optimal power flow</a><span>Energy</span></li>
+      <li><a href="https://github.com/tuggypetu/citylearn">Reinforcement learning for building energy</a><span>Energy</span></li>
+      <li><a href="https://github.com/tuggypetu/uma_catalysis">ML potentials for catalyst discovery</a><span>Materials</span></li>
+      <li><a href="https://github.com/tuggypetu/mobility-demand">Bike-share demand from urban features</a><span>Transport</span></li>
+      <li><a href="https://github.com/tuggypetu/nlp-policy-analysis">NLP for climate policy analysis</a><span>Policy</span></li>
+      <li><a href="https://github.com/tuggypetu/hands-on-outbreak-analytics">Dengue forecasting with RAG</a><span>Health</span></li>
+      <li><a href="https://github.com/tuggypetu/tracking-ml-emissions">Tracking the emissions of ML training</a><span>Green AI</span></li>
+      <li><a href="https://github.com/tuggypetu/intro-ai-tsunami-alerts">Predicting tsunami alerts from earthquakes</a><span>Hazards</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="wrap" id="learning">
+  <h2>Climate learning</h2>
+  <div class="ccai">
+    <div>
+      <h3>Virtual Summer School 2026</h3>
+      <p class="org">Climate Change AI, Jul – Aug 2026</p>
+      <p>Five weeks, seven foundation and five sector modules, and more than 30 hours of lectures and coding labs across forestry, agriculture, climate science, transport, and policy and economics.</p>
+    </div>
+    <blockquote>
+      <p>Find the right problem first. The model comes last.</p>
+      <p>AI is a climate tool, and it has its own carbon footprint.</p>
+      <p>Policy, economics and ethics shape what actually gets used.</p>
+    </blockquote>
+  </div>
+  <div class="certs">
+    <div>
+      <h3>Climate &amp; sustainability</h3>
+      <ul>
+        <li>Advanced Concepts of Climate Change and Carbon Markets <span>atingi.org, 2026</span></li>
+        <li>Introduction to Climate Change and Carbon Markets <span>atingi.org, 2026</span></li>
+        <li>An Introduction to AI and Sustainability <span>LinkedIn, 2026</span></li>
+      </ul>
+    </div>
+    <div>
+      <h3>AI &amp; GenAI</h3>
+      <ul>
+        <li>AI Fluency for Small Business <span>Anthropic, 2026</span></li>
+        <li>Introduction to Model Context Protocol <span>Anthropic, 2025</span></li>
+        <li>Cloud Technical Series: AI in Action <span>Google Cloud, 2026</span></li>
+        <li>Cloud Technical Series: Gemini at Work <span>Google, 2025</span></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Data &amp; cloud</h3>
+      <ul>
+        <li>AWS Academy Graduate: Machine Learning Foundations <span>AWS, 2024</span></li>
+        <li>SQL Advanced <span>HackerRank, 2024</span></li>
+        <li>Data Visualization: Storytelling <span>LinkedIn, 2026</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" id="skills">
+  <h2>Skills</h2>
+  <dl class="skills">
+    <dt>Geospatial</dt><dd>Google Earth Engine, QGIS, remote sensing, satellite imagery, spectral signatures, change detection, GeoPandas, Rasterio</dd>
+    <dt>Climate &amp; carbon</dt><dd>Carbon markets and registries, carbon estimation, baseline surveys, project monitoring data, KoboToolbox</dd>
+    <dt>Machine learning</dt><dd>Deep learning, computer vision, object detection, NLP, time series, clustering, anomaly detection, TensorFlow, PyTorch, Hugging Face</dd>
+    <dt>GenAI</dt><dd>LLMs, RAG, AI agents, embeddings and reranking, LangChain, LlamaIndex, vector databases, Model Context Protocol</dd>
+    <dt>Data &amp; engineering</dt><dd>Python, SQL, PostgreSQL, Pandas, Apache Airflow, APIs, Streamlit, Git, AWS, GCP, Azure</dd>
+    <dt>Business</dt><dd>Data storytelling, executive reporting, market and customer research, strategy consulting</dd>
+  </dl>
+</section>
+
+<section class="wrap" id="education">
+  <h2>Education</h2>
+  <ul class="edu">
+    <li><strong>Master of Information Technology</strong> <span>James Cook University, Singapore, 2022</span></li>
+    <li><strong>MBA, Analytics &amp; Business Solutions</strong> <span>James Cook University, Singapore, 2021</span></li>
+    <li><strong>Bachelor of Business, Marketing &amp; International Business</strong> <span>James Cook University, Singapore, 2020</span></li>
+  </ul>
+</section>
+
+</main>
+
+<footer class="contact" id="contact">
+  <div class="wrap">
+    <h2>Let's work on climate together</h2>
+    <p>I'm open to data science roles in climate tech. The quickest way to reach me is email.</p>
+    <div class="links">
+      <a class="btn primary" href="mailto:siddhanthbiswas@gmail.com">siddhanthbiswas@gmail.com</a>
+      <a class="btn" href="https://www.linkedin.com/in/siddhanthbiswas" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/tuggypetu" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="fine">© 2026 Sid Biswas</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
